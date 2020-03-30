@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimineto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<style>
+    #bg{
+        z-index: -999;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+    marquee{
+        justify-content: center;
+    }
+    .logotipos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+    }
+    .logo{
+        justify-content: center;
+        margin-right: 100px;
+    }
+    .logo1{
+        justify-content: center;
+        margin-left: 100px;
+    }
+</style>
+<body id="body">
+    <img alt="bg" src="bg.jpg" id="bg" />
+    <div class="logotipos">
+        <div class="logo">
+            <marquee direction="down" width="100%" height="100" behavior="alternate">
+                <marquee direction="down" width="100%" height="100" behavior="alternate">
+                    <marquee behavior="alternate">
+                       <img src="tesh.jpg" alt="TESH" width="200px" height="70">
+                     </marquee>
+              </marquee>
+          </marquee>
+        </div>
+        <div class="logo1">
+            <marquee direction="up" width="100%" height="100" behavior="alternate">
+                <marquee direction="up" width="100%" height="100" behavior="alternate">
+                    <marquee behavior="alternate">
+                        <img src="tecNM.jpg" alt="TECMX"  width="200px" height="70">
+                     </marquee>
+              </marquee>
+          </marquee>
+            
+        </div> 
+    </div>
+    <marquee scrollmount=50>
+        <h1>Tecnologico de estudios superiores de Huixquilucan</h1>
+    </marquee>
+    <h1>
+        <marquee direction="down" width="100%" height="100" behavior="alternate">
+            <marquee behavior="alternate">
+                Programacion WEB
+             </marquee>
+      </marquee>
+    </h1>
+
+    <marquee direction="up">
+        <h1><strong style="font-family: cursive;">Docente:</strong>Hugo Motes De Oca Martinez</h1>
+    </marquee>
+    <marquee direction="left">
+        <h1><strong style="font-family: cursive;">Alumno:</strong>Jose Daniel Ramirez Hinojosa</h1>
+    </marquee>
+    <marquee direction="down">
+        <h1>J3 Vespertino</h1>
+    </marquee>
+    
+</body>
+</html>
