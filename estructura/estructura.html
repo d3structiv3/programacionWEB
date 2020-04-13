@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplo de secciones</title>
+    <style>
+      * { 
+        margin:0;
+        padding:0;
+      }
+      a:link, a:visited, a:hover, a:active {
+        color:#0f0;
+        font-size:16px;
+      }
+      body {
+        background:#eee;
+        font-family:verdana;
+      }
+      h1 {
+        color:#c0c;
+        font-size:24px;
+      }
+      p {
+        font-size:16px;
+      }
+      ul {
+        list-style-type:none;
+      }
+      #cabecera {
+          display: flex;
+          flex-wrap: wrap;
+        color:#ff9;
+        background-color:#000;
+        padding:10px;
+        justify-content: flex-end;
+      }
+      #contenedor {
+        margin:0 auto;
+      }
+      #contenido {
+        background-color:#ddd;
+        float:left;
+        height:500px;
+        padding:10px;
+        width:560px;
+      }
+      #menu {
+        background-color:#999;
+        float:left;
+        height:480px;
+        padding:20px;
+        width:180px;
+      }
+      #pie { 
+        background-color:#bbb;
+        clear:both;
+        color:#900;
+        padding:10px;
+        text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="contenedor">
+      <div id="cabecera">
+        <p>Todos los elementos de la cabecera </p>
+        <input type="search"> <button>Buscar</button>
+      </div>
+      <div id="menu">
+        <ul>
+            <h1>Ejemplo de enlaces</h1>
+          <li><a href="enlace-1.html">Enlace 1</a></li>
+          <li><a href="enlace-2.html">Enlace 2</a></li>
+          <li><a href="enlace-3.html">Enlace 3</a></li>
+        </ul>
+      </div>
+      <div id="contenido">
+        <h1>Ejemplo de textos</h1>
+        <p>
+        Ejemplo de imagen:
+        <img src="img_ejemplo.jpg" alt="" width="550px" height="200px">
+        El Tecnológico de Estudios Superiores de Huixquilucan es una institución de educación superior. Su Modelo Académico ha sido diseñado para formar profesionales con los conocimientos, habilidades y actitudes que aseguren la incorporación inmediata al mundo laboral, para contribuir a su desarrollo personal, social y profesional de sus egresados.</p>
+            <br>
+            <h1>Ejemplo de tabla </h1>
+            <table border="1">
+                <caption>tabla</caption>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8-18hrs </td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>10-18hrs </td>
+                </tr>
+                </table>
+    </div>
+      <div>
+        <h1>Ejemplo de objeto</h1>
+        <object
+        type="application/pdf"
+        data="apoyo.pdf"
+        style="width: 540px; height: 250px;">
+        ERROR (no puede mostrarse el objeto)
+      </object>
+      <h1>Ejemplo de aplicacion</h1>
+      <object 
+      data="http://www.chiptune.com/starfield/starfield.html" 
+      type=""
+      style="width: 540px; height: 250px;">
+    </object>
+      </div>
+      <div id="pie">
+        <p>Párrafo en el pie de la página.</p>
+        <p>elaborado por: destructive</p>
+      </div>
+    </div>
+  </body>
+</html>
