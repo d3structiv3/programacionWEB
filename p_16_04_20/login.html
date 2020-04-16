@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Login para 1 usuario</title>
+</head>
+<style>
+    body {
+        color: white;
+    }
+
+    #bg {
+        z-index: -999;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    form {
+        margin: auto;
+        width: 50%;
+        max-width: 500px;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        border: 10px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    label {
+        margin: auto;
+        padding: 10px;
+    }
+
+    input {
+        display: block;
+        padding: 10px;
+        width: 95%;
+        margin: 30px 0;
+        font-size: 20px;
+    }
+
+    #log {
+        margin: auto;
+        width: 50%;
+        background-color: rgb(51, 47, 255);
+        border: none;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 50px;
+    }
+</style>
+
+<body>
+    <img src="bg.jpg" alt="" id="bg">
+    <script language=JavaScript>
+        function go() {
+
+            if (document.form.password.value == 'ejemplo' && document.form.login.value == 'ejemplo') {
+                document.form.submit();
+            }
+            else {
+                console.log('Entra al else');
+                document.getElementById("error").innerHTML = `<h4 style="color: red;">Usuario o contraseña incorrectos</h4>`;
+            }
+        } 
+    </script>
+    <br>
+    <br>
+    <br>
+    <form name='form' action="aceptado.html">
+        <h2>Iniciar sesion</h2>
+        <P>Usuario: <input type=text name=login>
+            <P>Contraseña: <input type=password name=password>
+                <input onclick=go() type=button value=Acceder id="log">
+                <div id="error" style="text-align: center;">
+
+                </div>
+    </form>
+</body>
+
+</html>
