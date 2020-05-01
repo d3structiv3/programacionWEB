@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes sociales</title>
+    <style>
+        body {
+            color: white;
+        }
+
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #bg {
+            z-index: -999;
+            width: 100%;
+            height: auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .item {
+            text-align: center;
+            padding: inherit;
+        }
+
+        .btn {
+            background: blanchedalmond;
+            border: 0;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .info {
+            margin-left: 20rem;
+            margin-right: 20rem;
+            padding: 0;
+
+        }
+
+        p {
+
+            text-align: justify;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="bg.jpg" alt="" id="bg">
+
+    <h1 style="text-align: center; font-size: 40px;">Redes sociales</h1>
+
+    <div class="contenedor">
+        <div class="item">
+            <h1>Facebook</h1>
+            <marquee direction="up" width="90%" behavior="alternate">
+                <marquee direction="up" width="90%" behavior="alternate">
+                    <marquee behavior="alternate">
+                        <img src="fb.png" alt="" srcset="" width="150px" height="150px">
+                    </marquee>
+                </marquee>
+            </marquee>
+            <input type="button" value="Informacion" id="btn_fb" class="btn" onclick="ver(1)">
+        </div>
+        <div class="item">
+            <h1>Instagram</h1>
+            <marquee direction="up" width="90%" behavior="alternate">
+                <marquee direction="up" width="90%" behavior="alternate">
+                    <marquee behavior="alternate">
+                        <img src="ig.png" alt="" srcset="" width="150px" height="150px">
+                    </marquee>
+                </marquee>
+            </marquee>
+            <input type="button" value="Informacion" id="btn_ig" class="btn" onclick="ver(2)">
+        </div>
+        <div class="item">
+            <h1>Twiter</h1>
+            <marquee direction="up" width="90%" behavior="alternate">
+                <marquee direction="up" width="90%" behavior="alternate">
+                    <marquee behavior="alternate">
+                        <img src="tw.png" alt="" srcset="" width="150px" height="150px">
+                    </marquee>
+                </marquee>
+            </marquee>
+            <input type="button" value="Informacion" id="btn_tw" class="btn" onclick="ver(3)">
+        </div>
+        <div class="item">
+            <h1>WhatsApp</h1>
+            <marquee direction="up" width="90%" behavior="alternate">
+                <marquee direction="up" width="90%" behavior="alternate">
+                    <marquee behavior="alternate">
+                        <img src="wa.png" alt="" srcset="" width="150px" height="150px">
+                    </marquee>
+                </marquee>
+            </marquee>
+            <input type="button" value="Informacion" id="btn_wa" class="btn" onclick="ver(4)">
+        </div>
+        <div class="item">
+            <h1>Youtube</h1>
+            <marquee direction="up" width="90%" behavior="alternate">
+                <marquee direction="up" width="90%" behavior="alternate">
+                    <marquee behavior="alternate">
+                        <img src="yb.png" alt="" srcset="" width="150px" height="150px">
+                    </marquee>
+                </marquee>
+            </marquee>
+            <input type="button" value="Informacion" id="btn_yb" class="btn" onclick="ver(5)">
+        </div>
+    </div>
+    <div class=""  id="cerrar">
+    <div class="info" style="text-align: center; display:none;" id="ver_fb">
+        <h1>Facebook</h1>
+        <p>
+            Facebook, Inc.es una compañía estadounidense que ofrece servicios de redes sociales y
+            medios sociales en línea con sede en Menlo Park, California. Su sitio web fue lanzado el 4 de febrero de
+            2004 por Mark Zuckerberg,
+            junto con otros estudiantes de la Universidad de Harvard y compañeros de habitación, Eduardo Saverin, Andrew
+            McCollum, Dustin Moskovitz y Chris Hughes.
+            Está disponible en español desde febrero de 2008. Facebook es una plataforma que funciona sobre una
+            infraestructura de computación basada principal
+            y totalmente en sistemas GNU/Linux, usando el conjunto de tecnologías LAMP, entre otras.
+        </p>
+        <input type="button" value="Cerrar" id="oc" class="btn" onclick="ver(6)">
+    </div>
+    <div class="info" style="text-align: center; display:none;" id="ver_tw">
+        <h1>Twiter</h1>
+        <p>
+            Twitter es un servicio de microblogging, con sede en San Francisco, California, EE.UU, con filiales en San
+            Antonio (Texas)
+            y Boston (Massachusetts) en Estados Unidos. Twitter, Inc. fue creado originalmente en California, pero está
+            bajo la jurisdicción de Delaware desde 2007.​ Desde que Jack Dorsey
+            lo creó en marzo de 2006, y lo lanzó en julio del mismo año, la red ha ganado popularidad mundial y se
+            estima que tiene más de 300 millones de usuarios, generando 65 millones
+            de tuits al día y maneja más de 800 000 peticiones de búsqueda diarias.6​ Ha sido denominado como el «SMS de
+            Internet».
+
+            La red permite enviar mensajes de texto plano de corta longitud, con un máximo de 280 caracteres
+            (originalmente 140), llamados tuits​ o tweets,
+            que se muestran en la página principal del usuario. Los usuarios pueden suscribirse a los tweets de otros
+            usuarios – a esto se le llama "seguir"
+            y a los usuarios abonados se les llama seguidores,
+        </p>
+        <input type="button" value="Cerrar" id="oc" class="btn" onclick="ver(6)">
+    </div>
+    
+    <div class="info" style="text-align: center; display:none;" id="ver_wa">
+        <h1>WhatsApp</h1>
+        <p>
+            WhatsApp Messenger (o simplemente WhatsApp) es una aplicación de mensajería para teléfonos inteligentes, en
+            la que se envían y reciben mensajes mediante
+            Internet, así como imágenes, documentos, ubicaciones, contactos, vídeos y grabaciones de audio; realizar
+            llamadas y videollamadas, entre otras funciones.
+            WhatsApp se integra automáticamente a la libreta de contactos, lo que lo diferencia de otras aplicaciones ya
+            que no es necesario ingresar alguna contraseña
+            o PIN para acceder al servicio.
+
+            Según datos de principios del año 2020, es líder en mensajería instantánea en gran parte del mundo, en el
+            que supera los 2000 millones de usuarios,
+            superando a otras aplicaciones como Facebook Messenger o Telegram, entre otros.
+        </p>
+        <input type="button" value="Cerrar" id="oc" class="btn" onclick="ver(6)">
+    </div>
+    <div class="info" style="text-align: center; display:none;" id="ver_yb">
+        <h1>You Tube</h1>
+        <p>
+            YouTube es un sitio web de origen estadounidense dedicado a compartir videos. Presenta una variedad de clips
+            de películas,
+            programas de televisión y vídeos musicales, así como contenidos amateur como videoblogs y YouTube Gaming.
+            Las personas que crean contenido para esta plataforma
+            generalmente son conocidas como youtubers.
+
+            Fue creado por tres antiguos empleados de PayPal en febrero de 2005 y, en octubre de 2006 fue adquirido por
+            Google Inc. a cambio de 1 650 millones de dólares y
+            ahora opera como una de sus filiales. Es el sitio web de su tipo más utilizado en internet.
+        </p>
+        <input type="button" value="Cerrar" id="oc" class="btn" onclick="ver(6)">
+    </div>
+    <div class="info" style="text-align: center; display:none;" id="ver_ig">
+        <h1>Instagram</h1>
+        <p>
+            Instagram es una red social y una aplicación móvil al mismo tiempo. Ésta permite a sus usuarios subir
+            imágenes y vídeos con múltiples efectos
+            fotográficos como filtros, marcos, colores retro, etc. para posteriormente compartir esas imágenes en la
+            misma plataforma o en otras redes sociales.
+            Esta aplicación o red, es actualmente una de las que mayor crecimiento tiene en el mundo.
+            Instagram también posee un medio de comunicación privado para hablar llamado Instagram Direct, y una función
+            llamada Historias (en inglés, Stories)
+            donde todas las personas pueden colgar fotografías y vídeos temporales a su perfil, agregando variados
+            filtros y efectos, con una duración máxima
+            de permanencia de 24 horas.
+        </p>
+        <input type="button" value="Cerrar" id="oc" class="btn" onclick="ver(6)">
+    </div>
+</div>
+    <script>
+        function ver(op) {
+            console.log(op);
+            switch (op) {
+                case 1:
+                console.log('Entra a la funcion');
+                document.getElementById('ver_fb').style='display: grid;';
+                break;
+
+                case 2:
+                document.getElementById('ver_ig').style='display: grid;';
+                break;
+
+                case 3:
+                document.getElementById('ver_tw').style='display: grid;';
+                break;
+
+                case 4:
+                document.getElementById('ver_wa').style='display: grid;';
+                break;
+
+                case 5:
+                document.getElementById('ver_yb').style='display: grid;';
+                break;
+                
+
+                case 6:
+                console.log('Entra a la funcion');
+                document.getElementById('cerrar').style='display: none;';
+                break;
+
+                default:
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>

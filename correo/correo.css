@@ -1,0 +1,82 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left{
+    float: left;
+    margin-left: 1rem;
+}
+.right{
+    float: right;
+    margin-right: 1rem;
+}
+.center{
+    margin-left: 30px;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+header {
+    margin-top: 0;
+    background: rgb(240, 240, 240);
+    border-radius: 5px;
+    height: 8vh;
+    padding: 3px;
+}
+
+.enlaces{
+    background: rgb(240, 240, 240);
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 100%;
+}
+.enlaces a{
+    display: block;
+    color: rgb(0, 0, 0);
+    height: 20px;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: 5px solid rgba (255,255,255,0.5);   
+}
+.correos{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    justify-items: self-start;
+    border: violet;
+}
+h6{
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.titulo{
+    padding: 1px;
+}
+.chat{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    background: rgb(240, 240, 240);
+}
+.centro{
+    width: 60%;
+}
+.mensajes{
+    background: white;
+}
+.send{
+    background: rgb(204, 204, 204);
+    display: flex;
+    width: 100%;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+.send input{
+    margin-right: 2px;
+    padding: 1px;
+}
