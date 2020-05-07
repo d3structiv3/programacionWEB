@@ -1,0 +1,75 @@
+table {
+    background: rgb(231, 231, 231);
+    text-align: center;
+ }
+ th, td {
+    width: 25%;
+    padding: 5px;
+   border: 1px solid #000;
+ }
+ .container{
+     text-align: center;
+ }
+ .container table{
+    margin: 0 auto;
+    text-align: center;
+ }
+ .modal-contenido a{
+     text-decoration: none;
+     color: white;
+     text-align: right;
+ }
+ .modal-contenido{
+    background-color:rgba(0, 0, 0,0.8);
+    width:500px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+  }
+  .tarjeta h2{
+      text-align: center;
+      color: white;
+  }
+  .tarjeta h4{
+    text-align: center;
+    color: white;
+}
+  .tarjeta p{
+    color: white;
+    text-align: justify;
+  }
+  .modal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:5;
+    right:0;
+    bottom: 0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+  }
+
+  #computadora:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  #impresora:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  #pantalla:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  #celular:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  #tablet:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  #consola:target{
+    opacity:1;
+    pointer-events:auto;
+  }
